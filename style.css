@@ -1,0 +1,46 @@
+.bg-header-footer{
+    background-color: #093e47!important;
+}
+.first-section{
+    padding: 4rem 3rem;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url("img/Isolation-combles.jpg");
+
+    filter: grayscale(75%);
+}
+.text-cover{
+    color: white;
+}
+.section-ref{
+    background-color: white;
+}
+.section-prez{
+    padding: 3rem 3rem;
+}
+.btn{
+    margin-top: 15px;
+    position: relative;
+    padding: 10px 32px;
+    line-height: 28px;
+    background: #f4f9fe;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #1f8ceb;
+    color: #3b566e;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 4px;
+    border-color: #17a2b8;
+    display: inline-block;
+}
+.btn a{
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #17a2b8;;
+}
