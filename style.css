@@ -17,7 +17,11 @@
     background-color: white;
 }
 .section-prez{
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
+}
+
+.section-form{
+    padding: 1rem 3rem;
 }
 .btn{
     margin-top: 15px;
@@ -43,4 +47,123 @@
 .btn:hover{
     color: white;
     background-color: #17a2b8;;
+}
+
+.link-footer{
+    text-decoration: none!important;
+    color: white;
+}
+.link-footer:hover{
+    text-decoration: none!important;
+    opacity: 0.8;
+    color: white;
+}
+
+
+/* ====================================================================
+	Default Form Style
+====================================================================
+
+***/ 
+
+.default-form .form-group{
+	position:relative;
+	margin-bottom:30px;	
+}
+
+.default-form .form-group .field-label{
+	display:block;
+	line-height:24px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+	color:#232323;
+	font-weight:500;
+	font-size:13px;
+}
+
+.default-form .form-group .field-label sup{
+	color:#ff0000;
+	font-size:14px;
+}
+
+.default-form input[type="text"],
+.default-form input[type="email"],
+.default-form input[type="password"],
+.default-form select,
+.default-form textarea{
+	display:block;
+	width:100%;
+	line-height:28px;
+	height:50px;
+	font-size:16px;
+	border:1px solid rgba(31,140,235,0.50);
+	padding:10px 25px;	
+	background:none;
+	color:#6f8ba4;
+	border-radius:4px;
+	transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.default-form .form-group input::-webkit-input-placeholder{
+	color:#6f8ba4;
+}
+
+.default-form select{
+	cursor:pointer;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none;
+	-o-appearance:none;
+	background:#ffffff url(../images/icons/icon-select.png) right center no-repeat;
+}
+
+.default-form textarea{
+	height:160px;
+	resize:none;	
+}
+
+.default-form select option{
+	text-indent:25px;	
+}
+
+.default-form input:focus,
+.default-form select:focus,
+.default-form textarea:focus{
+	border-color:#1f8ceb;
+}
+
+.default-form input.error,
+.default-form select.error,
+.default-form textarea.error{
+	border-color:#ff0000 !important;	
+}
+
+.default-form label.error{
+	display:none;
+	line-height:24px;
+	padding:5px 0px 0px;
+	margin:0px;
+	text-transform:uppercase;
+	font-size:11px;
+	color:#ff0000;
+	font-weight:500;	
+}
+
+#contact-form{
+    /* max-width: 850px; */
+    text-align: center;
+    padding-left: 8%;
+}
+
+@media (max-width:800px) {
+    img#img-form {
+      display: none;
+    }
+  }
+
+.label-radio{
+    margin: 0% 5%;
 }

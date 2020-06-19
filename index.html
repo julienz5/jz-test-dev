@@ -18,7 +18,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">Iso</h4>
+                <h4 class="text-white"><a class="link-footer" href="index.html">Iso</a></h4>
               </div>
               <div class="col-sm-4 offset-md-1 py-4">
                 <h5 class="text-white">Experts en iso</h5>
@@ -33,24 +33,110 @@
             <div class="container">
             <h1 class="jumbotron-heading text-cover">Isolez vos combles, votre garage, cave, vide sanitaire pour 1€</h1>
             <p class="lead text-cover">Profitez du programme d’isolation de votre maison mis en place par le Ministère de l’Environnement.</p>
-            <a href="#" class="btn">Tester mon éligibilité
+            <a href="#formulaire" class="btn">Tester mon éligibilité
                 <i class="fa fa-arrow-circle-right" aria-hidden="true" style="padding-left: 5px;"></i>
             </a>
             </div>
         </section>
 
         <section class ="section-prez">
-            <h2>Pourquoi faut-il isoler votre maison ?</h2>
-            <p>Grâce au programme d'isolation à 1 euro, réalisez jusqu’à 30% d’économies sur vos factures. Nous sommes à vos côtés pour vous accompagner dans vos démarches. Si vous êtes éligibles au programme, il vous suffira de payer 1 € symbolique pour la réalisation des travaux. C’est aussi simple que ça !</p>
-            <h2>Pourquoi faut-il isoler votre maison ?</h2>
-            <p>Grâce au programme d'isolation à 1 euro, réalisez jusqu’à 30% d’économies sur vos factures. Nous sommes à vos côtés pour vous accompagner dans vos démarches. Si vous êtes éligibles au programme, il vous suffira de payer 1 € symbolique pour la réalisation des travaux. C’est aussi simple que ça !</p>
+            <div class="row">
+                <div class = "col-md-8">
+                  <h2>Pourquoi faut-il isoler votre maison ?</h2>
+                  <p>Grâce au programme d'isolation à 1 euro, réalisez jusqu’à 30% d’économies sur vos factures. Nous sommes à vos côtés pour vous accompagner dans vos démarches. Si vous êtes éligibles au programme, il vous suffira de payer 1 € symbolique pour la réalisation des travaux. C’est aussi simple que ça !</p>
+                  <h2>Pourquoi faut-il isoler votre maison ?</h2>
+                  <p>Grâce au programme d'isolation à 1 euro, réalisez jusqu’à 30% d’économies sur vos factures. Nous sommes à vos côtés pour vous accompagner dans vos démarches. Si vous êtes éligibles au programme, il vous suffira de payer 1 € symbolique pour la réalisation des travaux. C’est aussi simple que ça !</p>
+                </div>
+                <div class = "col-md-4">
+                  <!-- <img style="width:60%" class= "img-fluid" src="img/money.jpg"></img> -->
+                </div>
+              </div>
+          </section>
+
+        <section id="formulaire" class="section-form">
+            <div class="row">
+                
+                <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="inner">
+                        <!-- <figure class="image"><img src="images/resource/featured-image-4.png" alt=""></figure> -->
+                        <figure class="image"><img id="img-form" src="img/Buzon.png" alt=""></figure>
+                    </div>
+                </div>
+                <div class = "col-md-6">
+                  <h2 style="text-align: center">Formulaire d'éligibilité</h2>
+                  <br>
+                  <div class="default-form contact-form">
+                      <form method="post" id="contact-form" action="sendemail.php">
+
+                          <div class="form-group">
+                              <select name="type">
+                                  <option>Quelle type de surface souhaitez-vous isoler ?</option>
+                                  <option>Garage annexe</option>
+                                  <option>Cave ou sous-sol</option>
+                                  <option>Combles</option>
+                                  <option>Vide sanitaire</option>
+                              </select>
+                          </div>
+
+                          <div class="form-group">
+                              <select name="energie">
+                                  <option>Quelle est votre énergie de chauffage ?</option>
+                                  <option>Gaz</option>
+                                  <option>Fioul</option>
+                                  <option>Electricité</option>
+                                  <option>Autre</option>
+                              </select>
+                          </div>
+
+                          <div class="form-group">
+                            <p>Vous-êtes :</p>
+                              <label class="label-radio">
+                                  <input type="radio" name="propr" value="always"/>Propriétaire
+                              </label>
+                              <label class="label-radio">
+                                  <input type="radio" name="propr" value="never"/>Locataire
+                              </label>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="text" name="pname" value="" placeholder="Votre nom" required>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="text" name="email" value="" placeholder="Adresse email" required>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="text" name="phone" value="" placeholder="Numéro de téléphone">
+                          </div>
+                          
+
+                          <div class="form-group">
+                              <button type="submit" class="theme-btn btn-style-two">Envoyer <span class="  ti-arrow-circle-right"></span></button>
+                          </div>
+                      </form>
+                  </div>
+                </div>
+                
+            </div>
         </section>
+
+        <section class ="section-prez">
+          <div class="row">
+            <div class = "col-md-2"></div>
+            <div class = "col-md-8">
+              <h2 style="text-align: center">Quelle est la suite de la démarche ?</h2>
+              <img style="padding-left: 8%" class= "img-fluid" src="img/process.jpg" alt="processus, démarche">
+            </div>
+            <div class = "col-md-2"></div>
+        </div>
+      </section>
 
         <section class="section-ref">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <img class= "img-fluid" src="img/gouv-frcs.jpg" alt="Responsive image">
+                        <img class= "img-fluid" src="img/gouv-frcs.jpg" alt="gouvernement français">
                     </div>
                 </div>
             </div>
@@ -61,7 +147,7 @@
             <div class="container">
                 <div style="margin-bottom: 0px; padding-bottom: 5px; padding-top: 5px;">
                     <p>Iso</p>
-                    <p>Copyright © 2020 - Iso</p>
+                    <p>Copyright © 2020 - Iso - <a class="link-footer" href="mentions-legales.html">Mentions légales</a></p>
                 </div>
             </div>
         </footer>
@@ -70,8 +156,12 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="validate.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
   </body>
 </html>
