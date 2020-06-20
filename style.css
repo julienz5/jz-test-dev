@@ -117,7 +117,6 @@
 	-webkit-appearance:none;
 	-ms-appearance:none;
 	-o-appearance:none;
-	background:#ffffff url(../images/icons/icon-select.png) right center no-repeat;
 }
 
 .default-form textarea{
@@ -166,4 +165,11 @@
 
 .label-radio{
     margin: 0% 5%;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 0px 3px;
+}
+.radiofont{
+	color: #495057;
 }
