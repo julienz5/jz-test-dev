@@ -159,8 +159,14 @@
 
 @media (max-width:800px) {
     img#img-form {
-      display: none;
-    }
+	  display: none;
+	}
+	#contact-form{
+		padding-left: 0%;
+	}
+	#img-gov{
+		max-width: 50%;
+	}
   }
 
 .label-radio{
