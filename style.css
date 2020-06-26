@@ -167,6 +167,9 @@
 	#img-gov{
 		max-width: 50%;
 	}
+	.section-form{
+		padding: 1rem 1rem;
+	}
   }
 
 .label-radio{
